@@ -8,20 +8,21 @@ To write a program to implement the SVM For Spam Mail Detection.
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Import the packages.
-2.Analyse the data.
-3.Use modelselection and Countvectorizer to preditct the values.
-4.Find the accuracy and display the result.
+1.Import the packages.
 
+2.Analyse the data.
+
+3.Use modelselection and Countvectorizer to preditct the values.
+
+4.Find the accuracy and display the result.
 ## Program:
 ```
 /*
 Program to implement the SVM For Spam Mail Detection..
 Developed by: ANURANJAN B
-RegisterNumber:  212225040025
+RegisterNumber:212225040025
 */
-```
-```
+
 import pandas as pd
 data=pd.read_csv("spam.csv", encoding='Windows-1252')
 data
@@ -60,7 +61,14 @@ print(con)
 cl=classification_report(y_test,y_pred)
 print(cl)
 ```
+
 ## Output:
+
+<img width="894" height="603" alt="Screenshot 2026-02-25 112325" src="https://github.com/user-attachments/assets/194f5a43-a71d-4578-ad0a-413c95fd3ccc" />
+<img width="873" height="146" alt="Screenshot 2026-02-25 112333" src="https://github.com/user-attachments/assets/0774ba71-9b34-4613-b225-99601af93e86" />
+<img width="878" height="157" alt="Screenshot 2026-02-25 112339" src="https://github.com/user-attachments/assets/2816b86b-7de5-4753-84ba-06aae2cc36f3" />
+<img width="895" height="341" alt="Screenshot 2026-02-25 112353" src="https://github.com/user-attachments/assets/6606c9f4-ab83-4045-9f67-0f12b994c478" />
+
 
 
 
